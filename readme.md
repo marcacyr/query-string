@@ -62,8 +62,6 @@ Parse a query string into an object. Leading `?` or `#` are ignored, so you can 
 
 The returned object is created with [`Object.create(null)`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create) and thus does not have a `prototype`.
 
-URI components are decoded with [`decode-uri-component`](https://github.com/SamVerschueren/decode-uri-component).
-
 #### arrayFormat
 
 Type: `string`<br>
@@ -91,6 +89,13 @@ queryString.parse('foo[0]=1&foo[1]=2&foo[3]=3', {arrayFormat: 'index'});
 queryString.parse('foo=1&foo=2&foo=3');
 //=> foo: [1,2,3]
 ```
+
+#### decode
+
+Type: `boolean`<br>
+Default: `true`
+
+Decode the keys and values. URI components are decoded with [`decode-uri-component`](https://github.com/SamVerschueren/decode-uri-component).
 
 ### .stringify(*object*, *[options]*)
 
