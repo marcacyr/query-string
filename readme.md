@@ -12,10 +12,10 @@
 ## Install
 
 ```
-$ npm install query-string
+$ npm install @marcacyr/query-string-2
 ```
 
-This module targets Node.js 6 or later and the latest version of Chrome, Firefox, and Safari. If you want support for older browsers, use version 5: `npm install query-string@5`.
+This module targets Node.js 6 or later and the latest version of Chrome, Firefox, and Safari. If you want support for older browsers, use version 5: `npm install query-string@5`. (note that this is the original query-string package)
 
 <a href="https://www.patreon.com/sindresorhus">
 	<img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
