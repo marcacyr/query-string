@@ -1,6 +1,6 @@
 # query-string [![Build Status](https://travis-ci.org/sindresorhus/query-string.svg?branch=master)](https://travis-ci.org/sindresorhus/query-string)
 
-> Parse and stringify URL [query strings](https://en.wikipedia.org/wiki/Query_string)
+> Parse and stringify URL [query strings](https://en.wikipedia.org/wiki/Query_string). This version of @sindresorhus package provides an optional decode parameter that will control whether parsed values are run through decodeComponent from decode-component-uri or not.
 
 ---
 
