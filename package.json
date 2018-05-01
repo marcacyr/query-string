@@ -1,6 +1,6 @@
 {
   "name": "@marcacyr/query-string-2",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Parse and stringify URL query strings",
   "license": "MIT",
   "repository": "marcacyr/query-string-2",
