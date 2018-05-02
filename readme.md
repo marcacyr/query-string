@@ -228,4 +228,4 @@ queryString.stringify({foo: undefined});
 
 ## License
 
-MIT © [Sindre Sorhus](https://sindresorhus.com)
+MIT © Marc Cyr
