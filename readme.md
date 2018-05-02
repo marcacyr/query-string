@@ -12,7 +12,7 @@
 ## Install
 
 ```
-$ npm install @marcacyr/query-string-2
+$ npm install nyancy
 ```
 
 This module targets Node.js 6 or later and the latest version of Chrome, Firefox, and Safari. If you want support for older browsers, use version 5: `npm install query-string@5`. (note that this is the original query-string package)
