@@ -1,12 +1,6 @@
-# query-string [![Build Status](https://travis-ci.org/sindresorhus/query-string.svg?branch=master)](https://travis-ci.org/sindresorhus/query-string)
+# nyancy
 
 > Parse and stringify URL [query strings](https://en.wikipedia.org/wiki/Query_string). This version of the query-string package provides an optional decode parameter that will control whether parsed values are run through decodeComponent from decode-component-uri or not. The original contribution of this work was done by Yadiel Arroyo (@yadielar) as a pull request that was never merged into query-string.
-
----
-
-<p align="center"><b>🔥 Want to strengthen your core JavaScript skills and master ES6?</b><br>I would personally recommend this awesome <a href="https://ES6.io/friend/AWESOME">ES6 course</a> by Wes Bos.<br>Also check out his <a href="https://LearnNode.com/friend/AWESOME">Node.js</a>, <a href="https://ReactForBeginners.com/friend/AWESOME">React</a>, <a href="https://SublimeTextBook.com/friend/AWESOME">Sublime</a> courses.</p>
-
----
 
 
 ## Install
@@ -25,7 +19,7 @@ This module targets Node.js 6 or later and the latest version of Chrome, Firefox
 ## Usage
 
 ```js
-const queryString = require('query-string');
+const queryString = require('nyancy');
 
 console.log(location.search);
 //=> '?foo=bar'
