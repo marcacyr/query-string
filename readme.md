@@ -218,4 +218,4 @@ queryString.stringify({foo: undefined});
 
 ## License
 
-MIT © Marc Cyr
+MIT © RedLock
